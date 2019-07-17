@@ -1,0 +1,51 @@
+
+.menu_window{
+    -fx-background-image: url("/images/narrative.jpg");
+	-fx-background-repeat: stretch;
+        -fx-background-size: 1000 600;
+        -fx-background-position: center center;
+
+}
+
+.options_window{
+		-fx-background-image: url("/images/book3.jpg");
+    	-fx-background-repeat: stretch;
+            -fx-background-size: 1000 600;
+            -fx-background-position: center center;
+
+}
+
+.other_window{
+		-fx-background-image: url("/images/aged.jpg");
+    	-fx-background-repeat: stretch;
+            -fx-background-size: 1000 600;
+            -fx-background-position: center center;
+
+}
+
+
+.button{
+	-fx-background-color: linear-gradient(to top,#f39c12, #f1c40f);
+	-fx-background-insets: 0;
+    -fx-border-color: #48a1ea;
+	-fx-border-radius: 2;
+}
+
+.button:hover{
+	-fx-background-color: linear-gradient(to top,#d35400, #f1c40f);
+	-fx-border-width: 2;
+	-fx-background-insets: 0;
+	-fx-border-color: #48a1ea;
+	-fx-border-radius: 2;
+	-fx-font-size: 11px;
+	-fx-font-weight: bold;
+}
+
+.button:pressed{
+	-fx-background-color: linear-gradient(to top,#d35400, #f1c40f);
+	-fx-border-width: 2;
+	-fx-background-insets: 0;
+	-fx-border-color: grey;
+	-fx-border-radius: 2;
+	-fx-font-size: 11px;
+}
